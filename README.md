@@ -6,7 +6,7 @@ en particular. Nuestro objetivo es crear un proyecto que se encargue de sacar es
 tipos de eventos utilizando un sistema de procesamiento distribuido como Spark. Para ello se ha creado la clase 
 EventAggregation en donde se van implementar el calculo de las diferentes estadisticas.
 
-##Objetivo de la practica
+## Objetivo de la practica
 
 La finalidad de esta practica es completar la clase EventAggregation que no tiene los 
 metodos implementados, en la documentación de cada metodo se explica que es lo que tiene que hacer cada método. Para 
@@ -17,14 +17,14 @@ El entregable de la practica será el fichero EventAggregation.scala, este fiche
 estar completamente documentado utilizando scaladoc. Este fichero deberá esta subido en el blackboard antes de la 
 finalización del plazo de la práctica.
 
-##Comandos utiles
+## Comandos utiles
 
 Para hacer una instalación del software se debe ejecutar el comando mvn clean install desde la carpeta donde este 
 contenido el pom.xml, lanzando este comando se ejecutarán tambien los test de la aplicación si se desea instalar el 
 proyecto sin pasar los test se debe añadir el parametro -DskipTests. Desde el propio IntelliJ si marca con el botón 
 derecho el proyecto y desde ahí se pulsa Run ‘All tests’, se pueden ejecutar todos los tests desde el IDE.
 
-##Notas
+## Notas
 
 * Se pueden incluir tantas clases o metodos auxiliares como se deseen pero deben estar todos contenidos en la clase 
 EventAggregation.scala.
